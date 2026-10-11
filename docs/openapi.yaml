@@ -889,9 +889,9 @@ components:
           $ref: "#/components/schemas/SystemOneContent"
         criteria:
           type: array
-          description: Descriptions ordered from the lowest score (index 0) to the highest. Defines a scale from 0 to the number of criteria minus 1. The maximum number of levels depends on the model.
+          description: Descriptions ordered from the lowest score (index 0) to the highest. Defines a scale from 0 to the number of criteria minus 1.
           minItems: 2
-          maxItems: 26
+          maxItems: 10
           items:
             type: string
     SystemOneRequest:
